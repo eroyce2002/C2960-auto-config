@@ -1,0 +1,4 @@
+- name: SSH Initialization
+  command: python3.8 ./C2960 Configging.py {{ ansible_user }} {{ ansible_password }} {{ console_port }} {{ hostname }}
+  delegate_to: localhost
+  register: command_result

@@ -87,7 +87,7 @@ else:
 #minimum config added so that ansible can SSH to device
 commands = [
     "hostname " + hostname,
-    "ip domain name " + site + ".net.menards.net",
+    "ip domain name " + site + "uwstout.edu",
     "ip default-gateway " + gateway,
     "user " + user + " algorithm-type scrypt secret " + password,
     "enable password 0 " + password,
